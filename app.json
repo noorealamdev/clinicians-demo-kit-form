@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cliniciansnew",
-    "slug": "cliniciansnew",
+    "name": "Clinicians Demo Kit Form",
+    "slug": "clinicians",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codenpy.clinicians"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.codenpy.clinicians",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d82d7759-a349-41ac-952f-a4829e6dd635"
+      }
     }
   }
 }
